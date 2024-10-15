@@ -1,0 +1,13 @@
+package hu.unideb.inf.bookreview;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class BookReviewApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

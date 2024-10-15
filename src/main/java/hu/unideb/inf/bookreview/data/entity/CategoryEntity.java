@@ -9,12 +9,13 @@ public class CategoryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(name = "name",nullable = false, unique = true)
+    @Column(name = "name", nullable = false, unique = true)
     private String name;
     @Column(name = "description")
     private String description;
 
-    public CategoryEntity() {}
+    public CategoryEntity() {
+    }
 
     public CategoryEntity(long id, String name, String description) {
         this.id = id;

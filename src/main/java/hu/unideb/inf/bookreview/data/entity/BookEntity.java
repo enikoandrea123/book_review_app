@@ -9,7 +9,7 @@ public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(name = "title",nullable = false)
+    @Column(name = "title", nullable = false)
     private String title;
     @Column(name = "authorId")
     private long authorId;
@@ -22,9 +22,10 @@ public class BookEntity {
     @Column(name = "createdAt", nullable = false)
     private String createdAt;
 
-    public BookEntity() {}
+    public BookEntity() {
+    }
 
-    public BookEntity(long id, String title, long authorId, long categoryId,int publishedYear, String isbn, String createdAt) {
+    public BookEntity(long id, String title, long authorId, long categoryId, int publishedYear, String isbn, String createdAt) {
         this.id = id;
         this.title = title;
         this.authorId = authorId;

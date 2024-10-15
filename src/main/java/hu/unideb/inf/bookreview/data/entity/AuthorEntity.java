@@ -1,4 +1,4 @@
-package hu.unideb.inf.bookreview.data;
+package hu.unideb.inf.bookreview.data.entity;
 
 import jakarta.persistence.*;
 
@@ -11,14 +11,15 @@ public class AuthorEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(name = "name",nullable = false)
+    @Column(name = "name", nullable = false)
     private String name;
     @Column(name = "biography")
     private String biography;
-    @Column(name = "createdAt",nullable = false)
+    @Column(name = "createdAt", nullable = false)
     private LocalDate createdAt;
 
-    public AuthorEntity() {}
+    public AuthorEntity() {
+    }
 
     public AuthorEntity(long id, String name, String biography, LocalDate createdAt) {
         this.id = id;

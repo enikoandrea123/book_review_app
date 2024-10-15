@@ -22,7 +22,8 @@ public class ReviewEntity {
     @Column(name = "createdAt", nullable = false)
     private LocalDateTime createdAt;
 
-    public ReviewEntity() {}
+    public ReviewEntity() {
+    }
 
     public ReviewEntity(long id, String comment, int rating, long userId, long bookId, LocalDateTime createdAt) {
         this.id = id;

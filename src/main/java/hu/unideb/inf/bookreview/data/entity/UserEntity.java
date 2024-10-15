@@ -20,7 +20,8 @@ public class UserEntity {
     @Column(name = "createdAt", nullable = false)
     private LocalDateTime createdAt;
 
-    public UserEntity() {}
+    public UserEntity() {
+    }
 
     public UserEntity(long id, String username, String password, String email, LocalDateTime createdAt) {
         this.id = id;
