@@ -11,20 +11,28 @@
     <groupId>hu.unideb.inf</groupId>
     <artifactId>bookreview</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bookreview</name>
-    <description>Book Review App</description>
-    <url/>
+    <name>Book Review Application</name>
+    <description>BA web application for reviewing books, allowing users to submit reviews and ratings.</description>
+    <url> https://github.com/enikoandrea123/book_review_app.git</url>
     <licenses>
-        <license/>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <id>enikoandrea123</id>
+            <name>Beke Enikő Andrea</name>
+            <email>enikoandrea12@gmail.com</email>
+        </developer>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>scm:git:git://github.com/enikoandrea123/book_review_app.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:enikoandrea123/book_review_app.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/enikoandrea123/book_review_app</url>
     </scm>
     <properties>
         <java.version>21</java.version>
